@@ -1,17 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// 🏎️ Fast I/O
-#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-
-// 🧾 Typedefs
 using ll = long long;
 using ull = unsigned long long;
 using ld = long double;
-using vll = vector<ll>;
 using pii = pair<int, int>;
+using vi = vector<int>;
+using vll = vector<ll>;
 
-// 🪄 Macros
+#define FAST_IO ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
 #define nl '\n'
 #define yes cout << "YES" << nl
 #define no cout << "NO" << nl
@@ -20,32 +18,21 @@ using pii = pair<int, int>;
 #define pb push_back
 #define eb emplace_back
 #define setpr(n) cout << fixed << setprecision(n)
-
-// 🧮 Math macros
 #define gcd(a, b) __gcd((a), (b))
 #define lcm(a, b) ((a) / gcd((a), (b)) * (b))
+#define ceilDiv(a, b) ((a + (b) - 1) / (b))
 
-// 🔐 Constants
 const ll MOD = 1e9 + 7;
 const ll INF = 1e18;
 const double EPS = 1e-9;
 
-// 🔍 Debug (optional - disable on online judge)
-#ifdef LOCAL
-    #define debug(x) cerr << #x << " = " << x << nl;
-#else
-    #define debug(x)
-#endif
-
-// 🧠 Solve function
 void solve() {
-    // your code here
+    
 }
 
-// 🚀 Main
 int main() {
     FAST_IO
-    int tc = 1;
+    int tc;
     cin >> tc;
     while (tc--) solve();
     return 0;
